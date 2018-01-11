@@ -1,0 +1,7 @@
+$(document).ready(function(){
+	$("input").focus(function(){
+		$("span").fadeOut(2000);
+	});
+});
+
+<span> Nice to meet you </span>
